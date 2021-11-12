@@ -1,0 +1,86 @@
+.title {
+	font-size: 100px;
+	text-align: center;
+	color: white;
+	font-family: "Bradley Hand ITC";
+	font-weight: 900;
+	margin-bottom: 12px;
+	margin-top: 20px;
+}
+
+.daycontainer {
+  position: relative;
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.daycontainer .calendar-image{
+	width: 1000px;
+	height: auto;
+
+	display: block;
+	margin: auto;
+}
+
+.daycontainer .btn1 {
+  position: absolute;
+  font-family: Arial;
+  top: 20%;
+  left: 22%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-decoration: none
+}
+
+.daycontainer .btn2 {
+  position: absolute;
+  font-family: Arial;
+  top: 20%;
+  left: 37%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-decoration: none
+}
+
+.daycontainer .btn3 {
+  position: absolute;
+  font-family: Arial;
+  top: 20%;
+  left: 52%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-decoration: none
+}
+
+.daycontainer .btn1:hover {
+  background-color: green;
+}
+.daycontainer .btn2:hover {
+  background-color: green;
+}
+.daycontainer .btn3:hover {
+  background-color: green;
+}
+

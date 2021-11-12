@@ -1,0 +1,89 @@
+.title {
+	font-size: 100px;
+	text-align: center;
+	font-family: "Bradley Hand ITC";
+	color: black;
+	font-weight: 900;
+}
+.dayinfo {
+  position: relative;
+  margin: auto;
+
+}
+.dayinfo .time{
+	position: absolute;
+	font-size: 75px;
+	color: purple;
+	font-family: "Bradley Hand ITC";
+	font-weight: 900;
+	top: 20%;
+	left: 15%;
+}
+.dayinfo .main-image{
+	width: 500px;
+	height: auto;
+	display: block;
+  	margin: auto;
+}
+
+
+.daydesc{
+	width: 750px;
+	text-align: center;
+	font-size: 25px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 15px;
+	margin-bottom: 100px;	
+	color: black;
+	font-family: "Bradley Hand ITC";
+	font-weight: 900;
+
+}
+
+	
+.background{
+	background-color:#3f4544;
+	background-image: url("images/backback.jpg");
+	background-size: contain;
+}
+
+.backbutton {
+  position: relative;
+  font-family: Arial;
+  top: 20%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-decoration: none
+}
+.nextbutton {
+  position: relative;
+  font-family: Arial;
+  top: 20%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-decoration: none
+}
+
+.backbutton:hover {
+  background-color: green;
+}
+.nextbutton:hover {
+  background-color: green;
+}
